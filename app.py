@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from datetime import datetime
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Sample in-memory task list
 tasks = []
